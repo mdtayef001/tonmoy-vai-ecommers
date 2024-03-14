@@ -7,13 +7,6 @@ const Products = ({ innerPage, headingText }) => {
       {!innerPage && <div className="sec-heading">{headingText}</div>}
       <div className="products">
         <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
       </div>
     </div>
   );
